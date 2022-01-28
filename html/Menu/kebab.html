@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KEBAB</title>
+<link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .wrapper {
+      width: 1200px;
+      margin: 100px auto;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .title h4 {
+      text-transform: capitalize;
+      font-size: 36px;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+
+    .title h4 span {
+      display: block;
+      font-size: 18px;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    .title h4:before {
+      position: absolute;
+      content: "";
+      width: 100px;
+      height: 2px;
+      background-color: #ff7720;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .single-menu {
+      flex-basis: 580px;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .single-menu:nth-child(5),
+    .single-menu:nth-child(6) {
+      border-bottom: 0;
+    }
+
+    .single-menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .single-menu:hover img {
+      border-radius: 0;
+    }
+
+    .single-menu img {
+      max-width: 180px;
+      margin-right: 30px;
+      border-radius: 50%;
+      border: 1px solid #ddd;
+      padding: 3px;
+      transition: .5s;
+    }
+
+    .single-menu h4 {
+      text-transform: capitalize;
+      font-size: 22px;
+      border-bottom: 1px dashed #333;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+    }
+
+    .single-menu h4 span {
+      float: right;
+      color: #ff7720;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="title">
+      <div class="logo">
+        <a style="font-size:50px; color:red">CLASSY RESTAURANT<a
+            style="font-size:15px; font-family: calibri light; color:rgb(19, 15, 15); text-shadow: 4px 4px 6px rgba(0,0,0,0);margin-left:15px; font-weight:none"></a></a>
+
+      </div>
+      <h4>KEBAB MENU</h4>
+    </div>
+    <div class="menu">
+      <div class="single-menu">
+        <img src="kebab 1.jpg" alt="">
+        <div class="menu-content">
+          <h4>Chakhle Shami Kebab<span>₹ 150</span></h4>
+          <p>Shami kabab or shaami kabab, literally meaning "Syrian Kebab", is a local variety of kebab. It is a popular
+            Middle Eastern
+            dish all over South and Western Asia.</p>
+        </div>
+      </div>
+      <div class="single-menu">
+        <img src="kebab 2.jpg" alt="">
+        <div class="menu-content">
+          <h4>Mixed Kebab<span>₹ 210</span></h4>
+          <p>The combination of Lamb, Beef & Chicken infused with our secret kebab spice blend, creates a delicious
+            kebab with great taste
+            and texture for a low price. ... Each of these kebabs has varying proportions of lamb, beef and chicken..
+          </p>
+        </div>
+      </div>
+      <div class="single-menu">
+        <img src="kebab 3.jpg" alt="">
+        <div class="menu-content">
+          <h4>Lamb Kebab<span>₹ 240</span></h4>
+          <p> small cubes of meat cooked on a skewer – or, outside of North America where it is better known as gyros,
+            the
+            more recent and now-ubiquitous fast-food doner kebab..</p>
+        </div>
+      </div>
+      <div class="single-menu">
+        <img src="kebab 4.jpg" alt="">
+        <div class="menu-content">
+          <h4>Chicken Kebab <span>₹ 300</span></h4>
+          <p>They are basically marinaded chicken, threaded onto skewers and cooked through. For this recipe we use a
+            marinade
+            of yoghurt with paprika, cumin, a little cinnamon, chilli flakes, garlic and lemon..</p>
+
+        </div>
+      </div>
+      <div class="single-menu">
+        <img src="kebab 5.jpg" alt="">
+        <div class="menu-content">
+          <h4>Seekh Kebab<span>₹ 220</span></h4>
+          <p>Seekh kebab is a type of kebab, popular in South Asia, made with spiced minced or ground meat, usually
+            lamb, beef, or
+            chicken, formed into cylinders on skewers and grilled. It is typically cooked on a mangal or barbecue, or in
+            a tandoor.· </p>
+        </div>
+      </div>
+      <div class="single-menu">
+        <img src="chaat 6.jpg" alt="">
+        <div class="menu-content">
+          <h4>Dhahi Puri<span>₹ 70</span></h4>
+          <p>The dish is a form of chaat and originates from the city of Mumbai. It is served with mini-puri shells
+            (golgappa), which are more
+            popularly recognized from the dish pani puri.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>>
+
+</html>
