@@ -1,13 +1,13 @@
 # Restro-web
 **~Restaurant Website Template**
 
-A template for a restaurant, Classy Restaurant. It employs the use of HTML, CSS and Javascript to build it. by Kadambari Patil
+A template for a restaurant, Classy Restaurant. It employs the use of HTML, CSS and Javascript to build it. by Kadambari patil
 
 **~Description**
 
 The website, a landing page for Classy Restaurant is divided into the following sections:
 
-1. A header section with the Name of the Restaurant
+1. A header section with the Name of the Restaurant. 
 
 2. A body Section->Dropdown contaning:
 
